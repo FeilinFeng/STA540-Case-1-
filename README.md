@@ -85,7 +85,7 @@ The replicated secondary analysis results are displayed as tables with p-values.
  
 - Table b: Stage of Health Behavior Changete ([csv](results/secondary_tables/tab_b.csv))
 - Table c: Attitudes toward human immunodeficiency virus (HIV) testing ([csv](results/secondary_tables/tab_c.csv))
-- Table d: Attitudes toward human immunodeficiency virus (HIV) testing ([csv](results/secondary_tables/tab_d.csv))
+- Table d: Attitudes toward human immunodeficiency virus (HIV) treatment (continuous scale from 1 [strongly disagree] to 7 [strongly agree]) ([csv](results/secondary_tables/tab_d.csv))
 - Table e. Human immunodeficiency virus (HIV)-related stigma among study participants ([csv](results/secondary_tables/tab_e.csv))
 - Table f. Medical mistrust ([csv](results/secondary_tables/tab_f.csv))
 
