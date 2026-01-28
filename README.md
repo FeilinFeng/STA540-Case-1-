@@ -79,6 +79,16 @@ The pairwise contrast results are shown below. The p-value is adjusted using Ben
 |Dating Apps / Social Media |2    | 9.615000e+00| 2.802000e+00| Inf|    1|   7.767|   0.000|
 |Info Sites / Social Media  |2    | 0.000000e+00| 0.000000e+00| Inf|    1|  -0.001|   1.000|
 
+### Secondary Analysis Results
+
+The replicated secondary analysis results are displayed as tables with p-values. The p-values are calculated based on Fisher’s exact test; for table b, table e, and table f, p-values are calculated based on Wilcoxon rank test.
+ 
+- Table b: Stage of Health Behavior Changete ([csv](results/secondary_tables/tab_b.csv))
+- Table c: Attitudes toward human immunodeficiency virus (HIV) testing ([csv](results/secondary_tables/tab_c.csv))
+- Table d: Attitudes toward human immunodeficiency virus (HIV) testing ([csv](results/secondary_tables/tab_d.csv))
+- Table e. Human immunodeficiency virus (HIV)-related stigma among study participants ([csv](results/secondary_tables/tab_e.csv))
+- Table f. Medical mistrust ([csv](results/secondary_tables/tab_f.csv))
+
 ## Study Replication Reflection
 
 
