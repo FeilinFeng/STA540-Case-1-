@@ -1,0 +1,6 @@
+Q15_1,Description,Did not order test kit (n=77) n/N,Ordered test kit (n=177) n/N,Percent_no,Percent_yes,P-value
+Precontemplation,I do not see any need to regularly test for HIV,2/77,7/177,2.5974025974025974,3.9548022598870056,0.251
+Contemplation,"I think I should get tested for HIV regularly, but I am not sure",8/77,31/177,10.38961038961039,17.51412429378531,
+Determination,I am ready to start getting regularly tested for HIV,49/77,87/177,63.63636363636363,49.152542372881356,
+Action,I am trying to get tested regularly for HIV,12/77,40/177,15.584415584415584,22.598870056497177,
+Maintenance,I have been getting tested for HIV regularly over the past few years,6/77,12/177,7.792207792207792,6.779661016949152,
