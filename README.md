@@ -16,13 +16,12 @@ The secondary objective of this study is to assess the characteristics differenc
 
 ## Replicated Table 1
 
-The replicated Table 1 is shonw below. The relevant code is stored in the `code.rmd`.
+The replicated Table 1 is shonw below. The relevant code is stored in the `code.rmd` and the '.md' output is stored in 'results'.
 |Characteristic                                                          |Value      |
 |:-----------------------------------------------------------------------|:----------|
 |Age in years, median (IQR)                                              |25 (21-27) |
-|Ethnicity, n (%)                                                        |66 (26)    |
+|Ethnicity, n (%)                                                        |           |
 |Hispanic/Latinx                                                         |66 (26)    |
-|Not Hispanic/Latinx                                                     |66 (26)    |
 |Race, n (%)                                                             |           |
 |American Indian or Alaskan Native                                       |1 (0.4)    |
 |Black or African American                                               |196 (78.4) |
@@ -75,9 +74,9 @@ The pairwise contrast results are shown below. The p-value is adjusted using Ben
 |Dating Apps / Info Sites   |1    | 5.290000e-01| 2.180000e-01| Inf|    1|  -1.543|   0.369|
 |Dating Apps / Social Media |1    | 6.920000e-01| 3.000000e-01| Inf|    1|  -0.848|   0.467|
 |Info Sites / Social Media  |1    | 1.308000e+00| 4.820000e-01| Inf|    1|   0.728|   0.467|
-|Dating Apps / Info Sites   |2    | 6.064565e+11| 2.562107e+16| Inf|    1|   0.001|   1.000|
-|Dating Apps / Social Media |2    | 9.615000e+00| 2.802000e+00| Inf|    1|   7.767|   0.000|
-|Info Sites / Social Media  |2    | 0.000000e+00| 0.000000e+00| Inf|    1|  -0.001|   1.000|
+|Dating Apps / Info Sites   |2    | 6.064565e+11| 2.562107e+16| Inf|    1|   0.001|   0.9995|
+|Dating Apps / Social Media |2    | 9.615000e+00| 2.802000e+00| Inf|    1|   7.767|   < 0001|
+|Info Sites / Social Media  |2    | 0.000000e+00| 0.000000e+00| Inf|    1|  -0.001|   0.9995|
 
 ### Secondary Analysis Results
 
@@ -91,5 +90,22 @@ The replicated secondary analysis results are displayed as tables with p-values.
 
 ## Study Replication Reflection
 
+The replication process is generally straightforward but time-consuming. The data dictionary and Appendices 1 and 3 are used when extracting variables throughout the reproduction.
+
+The overall reproduction is successful, but there are some mismatch with the manuscript. 
+
+For Table 1, the replicated value for age is slightly different from the manuscript. In addition, the calculated percentages for “In the past 6 months” under History of PrEP uptake and “About half the time” under Condom use are slightly different from the result in manuscript. This maybe due to the different strategy when handling missing data. Missing values are excluded from the denominators when calculating percentages in our replication.
+
+For the primary analysis, the cell-specific order rates matches those reported in the paper, but the p-value for pairwise comparisons is quite different in Wave 2. For Wave 1, we are able to replicate the same conclusion as the paper (no exact value provided in the paper). In Wave 2, we only obtain the right result for the comparison between Dating Apps and  Social Media. This may be due to the influence of an extreme value in Info Sites (Bing), which has zero order. 
+
+For the secondary analysis, we reproduced Table b to Table f in Appendix 3 provided by the paper. Table a is not reproduced because of the lack of information for constructing the correct variables (Problem use, High Risk Substance Use), which appear to be defined based on Diagnostic and Statistical Manual of Mental Disorders (DSM). Aside from this, the secondary analysis results are generally consistent with those reported in the paper.
+
 
 ## References
+
+Stafylis C, Vavala G, Wang Q, McLeman B, Lemley SM, Young SD, Xie H, Matthews AG, Oden N, Revoredo L, Shmueli-Blumberg D, Hichborn EG, McKelle E, Moran LM, Jacobs P, Marsch LA, Klausner JD. Relative Effectiveness of Social Media, Dating Apps, and Information Search Sites in Promoting HIV Self-testing: Observational Cohort Study. JMIR Form Res. 2022 Sep 23;6(9):e35648. doi: 10.2196/35648. PMID: 36149729; PMCID: PMC9591705.
+
+National Institute on Drug Abuse. (2025, April 9). NIDA-CTN-0083: Using Social Media to Deliver HIV Self-Testing Kits and Link to Online PrEP Services (Social Media PrEP). NIDA Data Share. https://datashare.nida.nih.gov/study/nida-ctn-0083
+
+Lenth R (2025). _emmeans: Estimated Marginal Means, aka Least-Squares Means_. R package version 1.11.2-8, <https://CRAN.R-project.org/package=emmeans>.
+
