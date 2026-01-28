@@ -16,7 +16,7 @@ The secondary objective of this study is to assess the characteristics differenc
 
 ## Replicated Table 1
 
-
+The replicated Table 1 is shonw below. The relevant code is stored in the `code.rmd`.
 |Characteristic                                                          |Value      |
 |:-----------------------------------------------------------------------|:----------|
 |Age in years, median (IQR)                                              |25 (21-27) |
@@ -55,6 +55,29 @@ The secondary objective of this study is to assess the characteristics differenc
 
 ## Replicated Results
 
+### Primary Analysis Results
+
+The cell-specific order rates are shown below.
+
+|WAVE |SITE      | ORDER | WAVE TIME|SITE TYPE    | ORDER RATE|
+|:----|:---------|---:|---------:|:------------|--------:|
+|1    |Facebook  |  13|        70|Social Media |    0.186|
+|1    |Google    |  17|        70|Info Sites   |    0.243|
+|1    |Grindr    |   9|        70|Dating Apps  |    0.129|
+|2    |Instagram |  13|        38|Social Media |    0.342|
+|2    |Jack'd    | 125|        38|Dating Apps  |    3.289|
+|2    |Bing      |   0|        38|Info Sites   |    0.000|
+
+The pairwise contrast results are shown below. The p-value is adjusted using Benjamini-Hochberg correction.
+
+|contrast                   |WAVE |        ratio|           SE|  df| null| z.ratio| p.value|
+|:--------------------------|:----|------------:|------------:|---:|----:|-------:|-------:|
+|Dating Apps / Info Sites   |1    | 5.290000e-01| 2.180000e-01| Inf|    1|  -1.543|   0.369|
+|Dating Apps / Social Media |1    | 6.920000e-01| 3.000000e-01| Inf|    1|  -0.848|   0.467|
+|Info Sites / Social Media  |1    | 1.308000e+00| 4.820000e-01| Inf|    1|   0.728|   0.467|
+|Dating Apps / Info Sites   |2    | 6.064565e+11| 2.562107e+16| Inf|    1|   0.001|   1.000|
+|Dating Apps / Social Media |2    | 9.615000e+00| 2.802000e+00| Inf|    1|   7.767|   0.000|
+|Info Sites / Social Media  |2    | 0.000000e+00| 0.000000e+00| Inf|    1|  -0.001|   1.000|
 
 ## Study Replication Reflection
 
